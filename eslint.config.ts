@@ -14,7 +14,7 @@ export default defineConfigWithVueTs(
         ignores: ["**/dist/**", "**/dist-ssr/**", "**/coverage/**", "*lock.json"],
     },
 
-    pluginVue.configs["flat/essential"],
+    pluginVue.configs["flat/recommended"],
     vueTsConfigs.recommended,
     skipFormatting,
     {
