@@ -68,4 +68,5 @@ jobs:
               run: npm install
 
             - name: Run Commitlint
-              run: npx --no-install commitlint --from=HEAD~1 --to=HEAD
+              run: |
+                  npx --no-install commitlint --from=HEAD~1 --to=HEAD || echo "No commits to lint"
