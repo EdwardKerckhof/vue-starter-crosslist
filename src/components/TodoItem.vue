@@ -21,7 +21,7 @@ function editTodo() {
     <div class="flex items-center gap-2">
         <input
             :id="`todoCompleted-${todo.id}`"
-            :value="todo.completed"
+            :checked="todo.completed"
             type="checkbox"
             @change="todoStore.toggleCompleted(todo.id)"
         />

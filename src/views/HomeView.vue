@@ -4,6 +4,7 @@ import TodoList from "@/components/TodoList.vue";
 
 <template>
     <div>
+        <h1 class="mb-5 text-3xl text-green-400">My Todo List</h1>
         <TodoList />
     </div>
 </template>
