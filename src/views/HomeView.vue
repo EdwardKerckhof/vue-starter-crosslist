@@ -1,5 +1,9 @@
+<script setup lang="ts">
+import TodoList from "@/components/TodoList.vue";
+</script>
+
 <template>
-    <div class="home">
-        <h1 class="text-3xl font-bold">This is the home page</h1>
+    <div>
+        <TodoList />
     </div>
 </template>
